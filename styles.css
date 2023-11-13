@@ -1,11 +1,11 @@
 :root {
   /* colours */
-  --background-color: white;
-  --text-color: black;
-  --header-color: black;
+  --background-color: rgba(255, 255, 255, 0.397);
+  --text-color: rgb(255, 0, 0);
+  --header-color: rgb(255, 0, 0);
 
   /* typography */
-  --font: serif;
+  --font: arial;
 }
 
 body {
@@ -19,6 +19,9 @@ body {
 h1, h2, h3 {
   color: var(--header-color);
   margin-block: 0.5em;
+}
+li {
+  color: green;
 }
 
 h1 {
